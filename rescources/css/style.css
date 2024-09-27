@@ -1,0 +1,130 @@
+﻿/*Target Elements*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: gray;
+}
+
+header {
+    background-image: url("./images_css/pattern.jpeg");
+    background-size: cover; /* Adjusts the image to cover the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    text-align: center;
+    padding: 1em;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 16em;
+}
+
+h1 {
+
+}
+
+nav {
+}
+
+ul {
+    padding: 1em;
+}
+
+li {
+    display: inline-block;
+    padding: 0em 3em;
+    font-size: 2.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+a {
+    color: khaki;
+    text-decoration: none;
+    margin: 1em auto;
+}
+
+main {
+    margin-top: 17em;
+}
+
+section {
+    border-radius: 25% / 50%;
+    padding: 2em;
+    margin: 1em auto;
+}
+
+h2 {
+
+}
+
+figure {
+
+}
+
+img {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+/*Target classes*/
+
+.title {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+.sectionTitle {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.productName {
+
+}
+
+.productDescription {
+
+}
+
+.price {
+    font-weight: bold;
+    color: blue;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+/*Target ids*/
+
+#navigation {
+
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    background-color: lightcoral;
+}
+
+#paint{
+    background-color: skyblue;
+}
